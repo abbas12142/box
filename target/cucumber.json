@@ -1,0 +1,420 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-25T09:36:20.790Z",
+        "line": 2,
+        "name": "Login page should be loaded successfully",
+        "description": "",
+        "id": "login-to-box.com;login-page-should-be-loaded-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1497190200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User launch chrome browser",
+            "match": {
+              "location": "stepDefinitions.loginBoxUI.i_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1477792500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User open box.com login page.",
+            "match": {
+              "location": "stepDefinitions.loginBoxUI.i_open_box_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 96770600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Verify that login page should be loaded successfully",
+            "match": {
+              "location": "stepDefinitions.loginBoxUI.i_verify_that_the_logo_should_be_present_on_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-25T09:36:23.930Z",
+        "line": 9,
+        "name": "Email address field on box.com login page",
+        "description": "",
+        "id": "login-to-box.com;email-address-field-on-box.com-login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 57000900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify that the Email address field should be present on page",
+            "match": {
+              "location": "stepDefinitions.loginBoxUI.i_verify_that_the_UserName_field_should_be_present_on_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-25T09:36:23.995Z",
+        "line": 14,
+        "name": "Next Button on box.com login page",
+        "description": "",
+        "id": "login-to-box.com;next-button-on-box.com-login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 34998200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify that the Next button should be present on page",
+            "match": {
+              "location": "stepDefinitions.loginBoxUI.i_verify_that_the_Login_Button_should_be_present_on_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-25T09:36:24.038Z",
+        "line": 17,
+        "name": "Reset Password on Box.com login page",
+        "description": "",
+        "id": "login-to-box.com;reset-password-on-box.com-login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29000400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verify that the Reset password page link should be present on page",
+            "match": {
+              "location": "stepDefinitions.loginBoxUI.i_verify_that_the_Reset_Password_Link_should_be_present_on_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to box.com",
+    "description": "",
+    "id": "login-to-box.com",
+    "keyword": "Feature",
+    "uri": "file:Features/1LoginUI.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-25T09:36:24.076Z",
+        "line": 2,
+        "name": "Enter email address by user",
+        "description": "",
+        "id": "box-user-login-success;enter-email-address-by-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 83885800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User entered correct email address",
+            "match": {
+              "location": "stepDefinitions.LoginBoxUserSuccess.I_entered_correct_email_address()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 475952500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Press next button",
+            "match": {
+              "location": "stepDefinitions.LoginBoxUserSuccess.Press_next_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37372000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Verify tha system should show password screen",
+            "match": {
+              "location": "stepDefinitions.LoginBoxUserSuccess.System_should_show_password_screen()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-25T09:36:24.683Z",
+        "line": 8,
+        "name": "Enter password by user",
+        "description": "",
+        "id": "box-user-login-success;enter-password-by-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 143524800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User entered correct password",
+            "match": {
+              "location": "stepDefinitions.LoginBoxUserSuccess.I_entered_correct_password()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3028360200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Press login button",
+            "match": {
+              "location": "stepDefinitions.LoginBoxUserSuccess.Press_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31001000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify that user should be logged in Successfully",
+            "match": {
+              "location": "stepDefinitions.LoginBoxUserSuccess.User_should_be_logged_in_Successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Box User Login Success",
+    "description": "",
+    "id": "box-user-login-success",
+    "keyword": "Feature",
+    "uri": "file:Features/2LoginSuccess.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-25T09:36:27.892Z",
+        "line": 2,
+        "name": "User Create a new folder",
+        "description": "",
+        "id": "create-folder;user-create-a-new-folder",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5116782400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User Press New Button",
+            "match": {
+              "location": "stepDefinitions.CreateFolder.User_Create_a_new_folder()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 690485500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Write Folder Name",
+            "match": {
+              "location": "stepDefinitions.CreateFolder.user_write_folder_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 52002200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Press Create button",
+            "match": {
+              "location": "stepDefinitions.CreateFolder.press_create_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1110053700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify that folder should be Created Successfully",
+            "match": {
+              "location": "stepDefinitions.CreateFolder.Folder_Created_Successfullye()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create Folder",
+    "description": "",
+    "id": "create-folder",
+    "keyword": "Feature",
+    "uri": "file:Features/3CreateFolder.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-25T09:36:34.870Z",
+        "line": 2,
+        "name": "User Open The Folder",
+        "description": "",
+        "id": "upload-file-in-folder;user-open-the-folder",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 123977200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User Click On Folder Name",
+            "match": {
+              "location": "stepDefinitions.UploadFile.user_click_on_folder_name()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 664500600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Click Upload File Button and Select File",
+            "match": {
+              "location": "stepDefinitions.UploadFile.user_click_upload_file_button_and_select_file()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4273028000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Verify that file should be Upload Successfully",
+            "match": {
+              "location": "stepDefinitions.UploadFile.file_should_be_upload_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Upload File In Folder",
+    "description": "",
+    "id": "upload-file-in-folder",
+    "keyword": "Feature",
+    "uri": "file:Features/3UploadFileInFolder.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-25T09:36:39.938Z",
+        "line": 2,
+        "name": "User want to logout",
+        "description": "",
+        "id": "user-want-to-logout-from-box.com;user-want-to-logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 30481300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User Click On profile avatar",
+            "match": {
+              "location": "stepDefinitions.Logout.user_click_on_profile_avatar()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 852538800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User click logout option in menu",
+            "match": {
+              "location": "stepDefinitions.Logout.user_click_logout_option_in_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21995900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Verify that user Should Logout Successfully",
+            "match": {
+              "location": "stepDefinitions.Logout.user_should_logout_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User want to Logout from box.com",
+    "description": "",
+    "id": "user-want-to-logout-from-box.com",
+    "keyword": "Feature",
+    "uri": "file:Features/Logout.feature",
+    "tags": []
+  }
+]
